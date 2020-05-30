@@ -1,4 +1,4 @@
-package com.zulkiflilothian.todolist
+package com.yohaneskasi.todolist
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.zulkiflilothian.todolist.activity
+package com.yohaneskasi.todolist.activity
 
 import android.app.AlertDialog
 import android.app.SearchManager
@@ -14,14 +14,14 @@ import androidx.appcompat.widget.SearchView
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.zulkiflilothian.todolist.R
-import com.zulkiflilothian.todolist.adapter.TodoAdapter
-import com.zulkiflilothian.todolist.model.Todo
-import com.zulkiflilothian.todolist.util.AlarmReceiver
-import com.zulkiflilothian.todolist.util.Commons
-import com.zulkiflilothian.todolist.util.CustomConfirmDialog
-import com.zulkiflilothian.todolist.util.FormDialog
-import com.zulkiflilothian.todolist.viewmodel.TodoViewModel
+import com.yohaneskasi.todolist.R
+import com.yohaneskasi.todolist.adapter.TodoAdapter
+import com.yohaneskasi.todolist.model.Todo
+import com.yohaneskasi.todolist.util.AlarmReceiver
+import com.yohaneskasi.todolist.util.Commons
+import com.yohaneskasi.todolist.util.CustomConfirmDialog
+import com.yohaneskasi.todolist.util.FormDialog
+import com.yohaneskasi.todolist.viewmodel.TodoViewModel
 
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.fragment_todo.view.*

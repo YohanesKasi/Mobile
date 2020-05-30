@@ -1,10 +1,10 @@
-package com.zulkiflilothian.todolist.viewmodel
+package com.yohaneskasi.todolist.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
-import com.zulkiflilothian.todolist.database.TodoRepository
-import com.zulkiflilothian.todolist.model.Todo
+import com.yohaneskasi.todolist.database.TodoRepository
+import com.yohaneskasi.todolist.model.Todo
 
 class TodoViewModel(application: Application): AndroidViewModel(application) {
     private var todoRepository = TodoRepository(application)

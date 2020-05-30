@@ -1,8 +1,8 @@
-package com.zulkiflilothian.todolist.database
+package com.yohaneskasi.todolist.database
 
 import android.app.Application
 import androidx.lifecycle.LiveData
-import com.zulkiflilothian.todolist.model.Todo
+import com.yohaneskasi.todolist.model.Todo
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking

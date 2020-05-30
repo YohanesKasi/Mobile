@@ -1,8 +1,8 @@
-package com.zulkiflilothian.todolist.database
+package com.yohaneskasi.todolist.database
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.zulkiflilothian.todolist.model.Todo
+import com.yohaneskasi.todolist.model.Todo
 
 @Dao
 interface TodoDao {

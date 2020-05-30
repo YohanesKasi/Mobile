@@ -1,10 +1,10 @@
-package com.zulkiflilothian.todolist.util
+package com.yohaneskasi.todolist.util
 
 import android.app.Dialog
 import android.content.Context
 import android.os.Bundle
 import android.view.Window
-import com.zulkiflilothian.todolist.R
+import com.yohaneskasi.todolist.R
 import kotlinx.android.synthetic.main.dialog_confirm.*
 
 class CustomConfirmDialog(context: Context, private val title: String, private val message: String, private val isCancelable: Boolean = true, private var btnPositiveText: String ="Yes", private var btnNegativeText: String = "No", private val yesAction: () -> Unit): Dialog(context){
